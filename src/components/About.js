@@ -21,7 +21,7 @@ At My TourTrek App, setting the bar at excellence isn't just a target; it's our 
             </p>
 
             <p className="my-4">
-              At Travel Trips, excellence is not just a goal; it's a standard.
+              At My TourTrek App, excellence is not just a goal; it's a standard.
               We continuously strive to exceed your expectations by staying
               ahead of industry trends, partnering with reputable
               establishments, and leveraging technology to enhance your booking
