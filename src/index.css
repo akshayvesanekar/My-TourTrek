@@ -47,28 +47,28 @@ html {
   @keyframes country-bg-animate {
     0%,
     25% {
-      background: url("https://images.pexels.com/photos/758742/pexels-photo-758742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+      background: url("https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg")
         no-repeat center;
       background-size: cover;
     }
   
     26%,
     50% {
-      background: url("https://images.pexels.com/photos/2187605/pexels-photo-2187605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+      background: url("https://images.pexels.com/photos/1654748/pexels-photo-1654748.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
         no-repeat center;
       background-size: cover;
     }
   
     51%,
     75% {
-      background: url("https://images.pexels.com/photos/789750/pexels-photo-789750.jpeg")
+      background: url("https://images.pexels.com/photos/570026/pexels-photo-570026.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
         no-repeat center;
       background-size: cover;
     }
   
     76%,
     100% {
-      background: url("https://images.pexels.com/photos/208701/pexels-photo-208701.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+      background: url("https://images.pexels.com/photos/531602/pexels-photo-531602.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
         no-repeat center;
       background-size: cover;
     }
