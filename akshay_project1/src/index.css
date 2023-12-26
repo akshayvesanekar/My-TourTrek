@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Home CSS */
+.home {
+    background-size: cover;
+    animation: country-bg-animate 10s infinite ease-in-out;
+  }
+  
+  .home > .home-content {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .country-name::after {
+    content: "";
+    animation: country-name-animate 10s infinite ease-in-out;
+  }
+  
+  @keyframes country-name-animate {
+    0%,
+    25% {
+      content: "Indonesia";
+    }
+  
+    26%,
+    50% {
+      content: "Japan";
+    }
+  
+    51%,
+    75% {
+      content: "India";
+    }
+  
+    76%,
+    100% {
+      content: "Italy";
+    }
+  }
+  
+  @keyframes country-bg-animate {
+    0%,
+    25% {
+      background: url("https://images.pexels.com/photos/758742/pexels-photo-758742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+        no-repeat center;
+      background-size: cover;
+    }
+  
+    26%,
+    50% {
+      background: url("https://images.pexels.com/photos/2187605/pexels-photo-2187605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+        no-repeat center;
+      background-size: cover;
+    }
+  
+    51%,
+    75% {
+      background: url("https://images.pexels.com/photos/789750/pexels-photo-789750.jpeg")
+        no-repeat center;
+      background-size: cover;
+    }
+  
+    76%,
+    100% {
+      background: url("https://images.pexels.com/photos/208701/pexels-photo-208701.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+        no-repeat center;
+      background-size: cover;
+    }
+  }
