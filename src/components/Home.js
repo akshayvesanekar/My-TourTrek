@@ -6,7 +6,7 @@ const Home = () => {
       <div className="home-content w-full h-[90vh] flex justify-center items-center">
         <div className="content flex flex-col justify-center items-center">
           <h2 className="text-slate-50 text-4xl font-bold text-center">
-            Greetings and welcome to Travel Trips!{" "}
+            Greetings and welcome to My TourTrek App!{" "}
           </h2>
           <h1 className=" text-slate-50 text-6xl font-bold text-center">
             Visit <span class="country-name text-orange-500"></span>
